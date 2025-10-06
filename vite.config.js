@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/postcss'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base:process.env.VITE_BASE_PATH || "/Window-Operating-System-UI-UX"
+  // base:process.env.VITE_BASE_PATH || "/Window-Operating-System-UI-UX"
 })
